@@ -1,3 +1,15 @@
+qt4-x11 (4:4.8.6+git64-g5dc8b2b+dfsg-3+deb8u4) jessie-security; urgency=high
+
+  * Non-maintainer upload by the ELTS team.
+  * Add patch to do stricter error checking when parsing
+    path nodes. (Fixes: CVE-2021-45930) (Closes: #1002991)
+  * Add patch to clamp parsed doubles to float representable
+    values. (Fixes: CVE-2021-3481) (Closes: #986798)
+  * Add patch to fix a malformed PPM image which causes
+    a crash. (Fixes: CVE-2018-19872)
+
+ -- Utkarsh Gupta <utkarsh@debian.org>  Sun, 30 Jan 2022 15:15:41 +0530
+
 qt4-x11 (4:4.8.6+git64-g5dc8b2b+dfsg-3+deb8u3) jessie-security; urgency=high
 
   * CVE-2020-17507: Fix a buffer overread issue when reading XBM image files.
