@@ -63,3 +63,6 @@ cve_2018-19873.patch
 cve_2018-19871.patch
 cve_2018-19869.patch
 CVE-2020-17507.patch
+CVE-2018-19872.patch
+CVE-2021-3481.patch
+CVE-2021-45930.patch
